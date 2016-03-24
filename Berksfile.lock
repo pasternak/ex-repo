@@ -1,0 +1,9 @@
+DEPENDENCIES
+  goapp
+    path: site-cookbooks/goapp
+  loadbalancer
+    path: site-cookbooks/loadbalancer
+
+GRAPH
+  goapp (0.1.0)
+  loadbalancer (0.1.0)

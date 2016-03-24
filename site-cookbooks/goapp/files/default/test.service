@@ -1,0 +1,8 @@
+[Unit]
+Description=Test go app
+
+[Service]
+ExecStart=/bin/go run /usr/local/bin/test.go
+
+[Install]
+WantedBy=multi-user.target
